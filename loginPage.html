@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.comWidth {width: 800px;margin-right: auto; margin-left: auto;}
+.logo {padding-left:41px; padding-top: 13px;}
+.logoLetter {font-size: 30px; text-align: center;color:#2D95EC;}
+.logoBar {height:70px; background-color:#fff;}
+.loginBody { position:relative; height: 600px; background-color: #2D95EC;}
+.pic {position:absolute; width:300px; margin-top:30px; margin-left: 10px; height:480px;}
+.picLetter {position:absolute;font-size: 30px; color:#fff; margin-top: 100px;margin-left: 70px;}
+.pic img {margin-left:-50px;width: 500px;}
+.loginBox {position:absolute; width:300px; margin-top:30px; margin-left: 500px; height:480px; background-color: #fff;}
+.signinLetter {font-size: 30px; margin:0px auto; text-align: center;margin-top: 30px;margin-bottom: 10px; color:#2D95EC;}
+.login input {width: 225px; height: 30px;margin:0 auto; margin-top: 20px; padding-left: 10px;}
+.login li {width: 240px; margin: auto;}
+.login_btn {background-color: #91C789; border: 1px solid #91C789; color: #fff; width: 100px !important; height: 30px; margin:auto; padding:auto;}
+.login_btn:hover, .login_btn:focus, .login_btn:focus:active {
+    color: #fff;
+    background: #64895F;
+    border-color: #64895F;
+    outline: none;
+}
+.login a {text-decoration:none; color:#77818c; margin-top: 10px;  height: 10px; float: right; font-size: 12px;}
+.login a:hover{ color:#2c84b5; }
+.divider { width:280px; text-align: center; position: relative; margin:auto; margin-top: 10px;}
+.divider>span {display: inline-block; font-size: 20px; color:#77818c; padding-top: 3px;}
+.divider>span:before, .divider > span:after { border-top: 1px solid #666;display: block;height: 1px;content: " ";width: 40%;position: absolute;left: 0;top: 0.7em;}
+.divider>span:after {right: 0;left: auto;}
+
+.facebook {
+    border-color: #3b5998;
+    background-color: #3b5998;
+    background-image: url(https://infograph.venngage.com//img/login/facebook.png);
+    height: 35px;
+    background-size: 35px 35px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 15px;
+    width: 200px;
+    border-bottom: 2px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    padding-left: 22px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.google {
+	border-color: #df4930;
+    background-color: #df4930;
+    background-image: url(https://infograph.venngage.com//img/login/google.png);
+    height: 35px;
+    background-size: 35px 35px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 15px;
+    width: 200px;
+    border-bottom: 2px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    padding-left: 22px;
+    margin-top: 5px;
+    margin-left: 50px;
+	
+}
+.footerBar {
+	height: 70px;
+}
+.reg {color:#77818c; text-align: center; font-size:15px; margin-top: 5px;}
+.reg a{text-decoration:none; color:#2c84b5; margin-top: 10px;  height: 10px;}
+.reg a:hover{ color:#2c84b5; }
+</style>
+<meta charset="utf-8">
+<title>Venngage</title>
+</head>
+<body>
+<div class="headerBar">
+	<div class="logoBar">
+		<div class="comWidth">
+			<div class="logo">
+				<span class="logoLetter" >VENNGAGE</span>
+				<!-- <a href="#"><img src="#" alt="Venngage"></a> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="loginBody">
+	<div class="comWidth">
+		<span class="picLetter">MAKE YOUR EASY</span>
+		<div class="pic">
+			<img src="https://venngage.com/assets/img/v2/Templates-1.png"/></div>
+		<div class="loginBox">
+			<div class="signinLetter"> Sign In </div>
+			<ul class="login">
+				<li><input type="text" placeholder="Email"></li>
+				<li><input type="text" placeholder="Password"></li>
+				<li><a href="#">Forgot Your Password?</a></li>
+				<li style="width:100px;"><input type="button" value="Sign In" class="login_btn"></li>
+			</ul>
+			<div class="divider"><span>or</span></div>
+			<div class="loginOthers">
+			<button class="facebook">Sign in with Facebook</button>
+			<button class="google">Sign in with Google</button>
+			<div class="reg">New to Venngage? <a href="#">Register here</a></div>
+		</div>
+		</div>	
+	</div>
+</div>
+<div class="footerBar">
+</div>
+</body>
+</html>
